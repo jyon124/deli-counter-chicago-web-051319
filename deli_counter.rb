@@ -10,8 +10,6 @@ else
   end
 end
 
-
-
 def take_a_number(katz_deli, person)
 
 if katz_deli.length == 0
@@ -31,5 +29,4 @@ else
   first_line = katz_deli.shift
   puts "Currently serving #{first_line}."
 end
-
 end
